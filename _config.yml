@@ -46,7 +46,7 @@ maindesc: A clean and minimalist Jekyll template. Designed for prose. <a href=ht
 menus:
 - text: Archive
   url: /archive
-- text: a non-blog page
+- text: some page
   url: /anotherpage.html
 - text: an About page
   url: /about.html
