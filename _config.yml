@@ -45,11 +45,11 @@ maindesc: A clean and minimalist Jekyll template. Designed for prose. <a href=ht
 #    | Keep it a small amount. It is designed for a small menu.
 menus:
 - text: Archive
-  url: /archive
+  url: ./archive
 - text: some page
-  url: /anotherpage.html
+  url: ./anotherpage.html
 - text: an About page
-  url: /about.html
+  url: ./about.html
   
 # Enter an invitation message
 #    | It lies right beneath every post to invite your readers to react and comment
