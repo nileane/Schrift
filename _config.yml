@@ -6,7 +6,7 @@
 
 # Global
 safe: false
-url: http://domain.xyz/ # Important to have the links work (leave a trailing /)
+url: http://schoewilliam.github.io/Schrift/ # Important to have the links work (leave a trailing /)
 source:      .
 destination: ./_site
 plugins:     ./_plugins
