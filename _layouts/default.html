@@ -21,7 +21,11 @@
     
     <meta name="author" content="{{ site.author }}">
     <meta content='initial-scale=1.0' name='viewport'>
-
+    
+    {% if site.url %}
+    <base href="{{ site.url }}">
+    {% endif %}
+    
     <link rel="icon" type="image/png" href="/images/fav.png">
     {% if page.styles %}
     <style type="text/css" media="screen">{{ page.styles }}</style>
