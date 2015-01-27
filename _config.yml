@@ -6,14 +6,14 @@
 
 # Global
 safe: false
-url: http://domain.xyz/ # Important to have the links work (leave a trailing /)
+url: http://domain.xyz/
 source:      .
 destination: ./_site
 plugins:     ./_plugins
 
 # Server
 port: 4000
-base-url: /
+base-url: / # Important to have the links work (leave a trailing /)
 
 # Build options
 future:      true
