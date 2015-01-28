@@ -295,10 +295,11 @@ hr.menu {
 }
 #ntitle .button .name {
     margin: 0 0 0 8px;
-    font-style: italic;
     transform: translate(0,-1px);
     -webkit-transform: translate(0,-1px);
     display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 @media screen and (max-width:799px) {
    #ntitle {
