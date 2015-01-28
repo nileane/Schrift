@@ -1,7 +1,8 @@
 <section class="article {%  if page.centered == true %}centered{% endif %}">
     <article>
     <time datetime='{{ post.date | date: "%Y-%m-%d" }}' class="top"><span class="oi" data-glyph="bookmark"></span> {% if page.en %}{{ page.date | date: "%-d %B %Y" }}{% else %}
-    {{ page.date | date: "%-d %B %Y" }}{% endif %}</time>
+    {{ page.date | date: "%-d %B %Y" }}{% endif %}
+    <br><a href="./archive"><span class="oi" data-glyph="timer"></span> Archive</a></time>
 
     <hgroup>
     {% if page.link %}

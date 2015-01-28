@@ -366,24 +366,23 @@ article,
     display: block;
     text-align: center;
     color: #888;
-    margin: 0 auto;
+    margin: 0 auto 15px;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 70%;
     font-weight: 500;
-    height: 25px;
-    line-height: 26px;
     animation: slidedown .5s 1;
     -webkit-animation: slidedown .5s 1;
 }
 @media screen and (min-width:1090px) {
     .top {
-      bottom: 14px;
+      bottom: 6px;
       position: fixed;
       left: 0px;
       right: 0px;
       z-index: 2;
       width: 200px;
+      margin: 0 auto;
     }
 }
 article h1 {
