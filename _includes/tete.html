@@ -1,12 +1,15 @@
-<nav id="ntitle" class="anim">
+<nav id="ntitle">
 <div>
-  <a class="button home" title="Home" href="./"><span class="oi" data-glyph="home"></span></a>
+  <a class="button home mobileoff" title="Home" href="./"><span class="oi" data-glyph="home"></span></a>
   <a href="./"><h1>{{ site.maintitle }}</h1></a>
   <div class="desc">{{ site.maindesc }}</div>
+  
+  
   <a class="button rss mobileoff" title="RSS" href="./flux.xml"><span class="oi" data-glyph="rss"></span></a>
+  <a onclick="document.getElementById('ntitle').classList.toggle('expanded')" class="button menumarker mobileoff"><span class="oi" data-glyph="chevron-top"></span><span class="name">Menu</span></a>
+  <a onclick="document.getElementById('ntitle').classList.toggle('expanded')" class="button menumarker mobileon" style="width:35px;padding:0"><span class="oi" data-glyph="menu"></span></a>
+  
   <div class="nlinks">{% for link in site.menus %}<span><a href="{{ link.url }}" title="{{ link.text }}">{{ link.text }}</a>{% if forloop.last == false %} <span class="mobileoff">·</span> {% endif %}</span> {% endfor %}
   </div>
-  
-  <span class="oi mobileon button menumarker" data-glyph="menu"></span>
 </div>
 </nav>
