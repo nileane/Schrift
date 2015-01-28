@@ -274,11 +274,16 @@ hr.menu {
     -webkit-transform: rotate(180deg) translate(0, 3px);
     display: inline-block;
 }
-#ntitle.expanded .button.menumarker.mobileon,
-#ntitle.expanded .button.menumarker.mobileoff {
-    border-color: rgba(0, 0, 0, .6);
+#ntitle.expanded .button.menumarker {
     color: #333;
-    background-color: rgba(0, 0, 0, .08);
+    background-color: rgba(0, 0, 0, .02);
+}
+#ntitle.expanded .button.menumarker.on,
+#ntitle .button.menumarker.off {
+    display: none;
+}
+#ntitle.expanded .button.menumarker.off {
+    display: inline-block;
 }
 #ntitle .button.home {
     margin-right:5px;
