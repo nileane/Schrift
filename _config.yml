@@ -13,7 +13,6 @@ plugins:     ./_plugins
 
 # Server
 port: 4000
-base-url: http://schoewilliam.github.io/Schrift/ # Important to have the links work (leave a trailing /)
 
 # Build options
 future:      true
