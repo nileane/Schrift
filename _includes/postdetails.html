@@ -1,8 +1,6 @@
 <section class="article {%  if page.centered == true %}centered{% endif %}">
     <article>
-    <time datetime='{{ post.date | date: "%Y-%m-%d" }}' class="top"><span class="oi" data-glyph="bookmark"></span> {% if page.en %}{{ page.date | date: "%-d %B %Y" }}{% else %}
-    {{ page.date | date: "%-d %B %Y" }}{% endif %}
-    <br><a href="./archive"><span class="oi" data-glyph="timer"></span> Archive</a></time>
+    <time datetime='{{ post.date | date: "%Y-%m-%d" }}' class="top"><span class="oi" data-glyph="bookmark"></span> {{ page.date | date: "%-d %B %Y" }}</time>
 
     <hgroup>
     {% if page.link %}
@@ -19,18 +17,24 @@
     </div>
 
     </article>
-
-    {% if site.invitationmsg %}
-    <div class="invitation">
-        <hr class="wide"><span class="oi" data-glyph="comment-square" style="padding-right: 12px;"></span> {{ site.invitationmsg }}
-    </div>
-    {% endif %}
 </section>
+
+{% if page.comments == false %}
+{% else %}
+      {% if site.invitationmsg %}
+      <div class="invitation">
+	  <div>
+	      <span class="oi" data-glyph="chat" style="padding-right: 12px;"></span> {{ site.invitationmsg }}
+	  </div>
+      </div>
+      {% endif %}
+{% endif %}
+
 
 <div class="readnext">
 {% if page.previous.url %}
-<a href=".{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
-	<span><span class="oi" data-glyph="timer"></span> Previously</span>
+<a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
+	<span><span class="oi" style="margin-right:12px" data-glyph="script"></span> Read next</span>
 	<h1>{{page.previous.title}}</h1></a>
 {% endif %}
 </div> 

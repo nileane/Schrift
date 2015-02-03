@@ -3,9 +3,13 @@ layout: post
 published: true
 title: Schrift, a Jekyll template designed for prose.
 ---
-*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.*
+*I have often tried to design a weblog style that would focus on the content and would still be elegant and nice to look at. I don’t pretend I have achieved it yet. But **Schrift** is my most recent attempt at it. I’m making this template for Jekyll available now. [Please use and hack](https://github.com/Schoewilliam/Schrift)!*
 
-Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis.
+You are on the demo site. Navigate around and see what it looks like !  
+Feel free to share your constructive opinion on [my introductory post as well](http://schoewilliam.fr/2015/01/28/schrift-a-jekyll-template-designed-for-prose-.html).
+From this line on, posts are written in Latin on a demoing purpose. Enjoy.
+
+---
 
 > "Donec ut libero sed arcu vehicula ultricies a non tortor."
 

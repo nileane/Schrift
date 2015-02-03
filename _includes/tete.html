@@ -1,20 +1,20 @@
 <nav id="ntitle">
 <div>
-  <a class="button home mobileoff" title="Home" href="./"><span class="oi" data-glyph="home"></span></a>
-  <a href="./"><h1>{{ site.maintitle }}</h1></a>
+  <a href="/"><h1>{{ site.maintitle }}</h1></a>
   <div class="desc">{{ site.maindesc }}</div>
   
+  <a onclick="document.getElementById('ntitle').classList.toggle('expanded')" class="button menumarker" style="width:35px;padding:0"><span class="oi" data-glyph="menu"></span></a>
+  <a class="button rss" title="RSS" href="/flux.xml"><span class="oi" data-glyph="rss"></span></a>
   
-  <a class="button rss mobileoff" title="RSS" href="./flux.xml"><span class="oi" data-glyph="rss"></span></a>
-  
-  <!-- Menu button on large screens -->
-  <a onclick="document.getElementById('ntitle').classList.toggle('expanded')" class="button menumarker mobileoff"><span class="oi" data-glyph="chevron-top"></span><span class="name">Menu</span></a>
-  
-  <!-- Menu button on small screens -->
-  <a onclick="document.getElementById('ntitle').classList.add('expanded')" class="button menumarker mobileon on" style="width:35px;padding:0"><span class="oi" data-glyph="menu"></span></a>
-  <a onclick="document.getElementById('ntitle').classList.remove('expanded')" class="button menumarker mobileon off" style="width:35px;padding:0"><span class="oi" data-glyph="x"></span></a>
-  
-  <div class="nlinks">{% for link in site.menus %}<span><a href="{{ link.url }}" title="{{ link.text }}">{{ link.text }}</a>{% if forloop.last == false %} <span class="mobileoff">·</span> {% endif %}</span> {% endfor %}
+  <div class="nlinks">
+    <div>
+	{% for link in site.menus %}
+	    <a href="{{ link.url }}">
+		<span class="oi" data-glyph="{{ link.openiconic }}"></span>
+		<span>{{ link.text }}<span>
+	    </a>
+	{% endfor %}
+    </div>
   </div>
 </div>
 </nav>
