@@ -19,8 +19,7 @@
     </article>
 </section>
 
-{% if page.comments == false %}
-{% else %}
+{% unless page.comments == false %}
       {% if site.invitationmsg %}
       <div class="invitation">
 	  <div>
@@ -28,7 +27,7 @@
 	  </div>
       </div>
       {% endif %}
-{% endif %}
+{% endunless %}
 
 
 <div class="readnext">
