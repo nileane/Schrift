@@ -1,13 +1,13 @@
 # Schrift
-## A clean and minimalist Jekyll template. Designed for prose. Simple to start with.
+*A clean, elegant and minimalist Jekyll template. Designed for prose.*
 
-### Introduction to the style
+## Introduction to the style
 I have often tried to design a weblog style that would **focus on the content** and would still be elegant and nice to look at. I don’t pretend I have achieved it yet. But here is my most recent attempt at it. I’m making this template for Jekyll available now. Please use and hack!
 
-### Demo site
+## Demo
 * **[schrift.nildeala.fr](http://schrift.nildeala.fr)**
 
-### Getting started
+## Getting started
 
 1. **Make yourself comfortable**  
 Open `_config.yml` and change the settings to your liking. Name, description, menus, (...) are all set in there.
@@ -20,11 +20,6 @@ bundle install
 ```
 
 3. **Run & test**  
-```
-bundle exec jekyll serve
-```  
-and  
-```
-bundle exec jekyll build
-```  
-& Voilà!
+You can now use `bundle exec jekyll serve` and `bundle exec jekyll build` to test and compile your blog.
+
+Voilà!
