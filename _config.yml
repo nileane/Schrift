@@ -39,8 +39,8 @@ menus:
 - text: Archive
   url: /archive
   openiconic: list
-- text: some page
-  url: /anotherpage.html
+- text: Some Page
+  url: /2015/01/25/lorem-ipsum.html
   openiconic: list-rich
 - text: an About page
   url: /about.html

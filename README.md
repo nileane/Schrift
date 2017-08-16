@@ -7,6 +7,24 @@ I have often tried to design a weblog style that would **focus on the content** 
 ### Demo site
 * **[schrift.nildeala.fr](http://schrift.nildeala.fr)**
 
-### Configuration
-Also, the idea being that it can be used as-is, I have included some options in the `_config.yml` file. This way one can start using the template very easily after cloning the repo.
-Once done, you can run `jekyll build` and done !
+### Getting started
+
+1. **Make yourself comfortable**  
+Open `_config.yml` and change the settings to your liking. Name, description, menus, (...) are all set in there.
+
+2. **Install dependencies**  
+After cloning this repo, make sure you have *bundler* installed (if not, run `gem install bundler`), then:  
+```
+cd Schrift/
+bundle install
+```
+
+3. **Run & test**  
+```
+bundle exec jekyll serve
+```  
+and  
+```
+bundle exec jekyll build
+```  
+& Voilà!
