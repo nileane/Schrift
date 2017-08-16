@@ -1,30 +1,22 @@
-## Configuration file for Jekyll & Schrift template
+## Configuration file for Jekyll
+## & Schrift template
 
 #
 # Jekyll configuration
-#
+# --------------------
 
 # Global
-safe: false
 url: http://domain.xyz/
-source:      .
-destination: ./_site
-plugins:     ./_plugins
-
-# Server
-port: 4000
 
 # Build options
-future:      true
-lsi:         false
-highlighter: pygments
 markdown:    kramdown
 permalink:   date
-auto_ids:    true
+
+
 
 #
 # Schrift template configuration
-#
+# ------------------------------
 
 # Enter below your name or pseudo & a short description
 #    | These don't appear on the website. They are used to set the <META>s
@@ -33,15 +25,16 @@ description: A clean and minimalist Jekyll template. Designed for prose.
 title: Schrift template  # Appears in the window title of the browser. Stands alone on the homepage, sits beside the post title on post pages.
 
 # Enter below the headtitle of your weblog/website
-#    | It appears on the main navigation bar. You use <span></span> to nicely fade out some part of it
+#    | It appears on the main navigation bar. You can use <span></span> to nicely fade out some part of it
 maintitle: Schrift <span>for Jekyll</span>
 
-# Enter below a short description that will sit next to your head title.
+# Enter below a short description that will sit next to your head title. (keep it short)
 #    | {optional}
 maindesc: <a href=https://github.com/Schoewilliam/Schrift><span class=oi data-glyph=fork></span> Fork me</a>
 
 # Enter below the items of your main menu
 #    | Keep it a small amount. It is designed for a small menu.
+#    | Schrit comes with the openiconic icon pack. Check out https://useiconic.com/open to select an icon for each menu item.
 menus:
 - text: Archive
   url: /archive
@@ -52,7 +45,7 @@ menus:
 - text: an About page
   url: /about.html
   openiconic: info
-  
+
 # Enter an invitation message
 #    | It lies right beneath every post to invite your readers to react and comment
 #    | {optional}
